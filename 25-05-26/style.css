@@ -1,0 +1,75 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    /* background: linear-gradient(135deg, #4facfe, #00f2fe); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #333;
+}
+
+/* Heading */
+h1 {
+    margin-bottom: 20px;
+    color: rgb(112, 87, 87);
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+
+/* Container box */
+.container {
+    background: white;
+    padding: 30px 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    width: 300px;
+    text-align: center;
+}
+
+/* Input fields */
+.container input[type="text"],
+.container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: border-color 0.3s ease;
+}
+
+.container input:focus {
+    border-color: #4facfe;
+    outline: none;
+}
+
+/* Button styling */
+.container button {
+    width: 100%;
+    padding: 10px;
+    background: #4facfe;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.container button:hover {
+    background: #00c6ff;
+}
+
+/* Responsive design for small screens */
+@media (max-width: 400px) {
+    .container {
+        width: 90%;
+    }
+}
