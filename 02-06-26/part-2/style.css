@@ -76,3 +76,18 @@ nav a {
 .underline:hover {
     text-decoration: underline;
 }
+
+.img-zoom {
+    overflow: hidden;
+    display: inline-block;
+}
+
+.img-zoom img {
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+    transition: transform 0.8s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+.img-zoom img:hover {
+    transform: scale(1.2);
+}
