@@ -1,3 +1,16 @@
+      body {
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10%;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #c9cee3 0%, #bd8ded 100%);
+            font-family: Arial, sans-serif;
+        }
+
+
 .spinner-container {
     display: flex;
     justify-content: center;
