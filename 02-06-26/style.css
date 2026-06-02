@@ -3,6 +3,7 @@ nav{
     justify-content: center;
     gap: 20px;
     padding: 10px;
+    background-color: #c6b4b4;
 }
 nav a{
     text-decoration: none;
@@ -24,3 +25,35 @@ nav a:hover{
         font-size: 16px;
     }
 }
+
+.card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.card .card-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.card .card-content {
+    padding: 10px;
+}
+.card p {
+    margin: 0;
+    font-size: 24px;
+}
+
+.card span {
+    color: red;
+    font-size: 18px;
+}   
+
