@@ -34,3 +34,45 @@
     height: 250px;
     background-color: #28a745;
 }
+
+/* Exercise 7: Navigation Hover Effect  */
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 18px;
+    display: inline-block;
+}
+
+/* Change color */
+.color-change {
+    transition: color 0.3s ease;
+}
+
+.color-change:hover {
+    color: #28a745;
+}
+
+/* Increase font size */
+.font-size {
+    transition: font-size 0.3s ease;
+}
+
+.font-size:hover {
+    font-size: 22px;
+}
+
+/* Underline smoothly */
+.underline {
+    text-decoration: none;
+    transition: text-decoration 0.3s ease;
+}
+
+.underline:hover {
+    text-decoration: underline;
+}
