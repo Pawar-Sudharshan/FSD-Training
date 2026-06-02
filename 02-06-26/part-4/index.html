@@ -1,25 +1,42 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Responsive Animated Login Form</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Exercise 13: Responsive Animated Login Form -->
     <div class="container-login">
-        <h1>Login Form</h1>
-        <form action="dashboard.html" onSubmit="return true;" method="post">
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username" required />
+      <h1>Login Form</h1>
+      <form action="dashboard.html" onSubmit="return true;" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required />
 
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required />
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required />
 
-            <div class="btn">
-                <button class="animated-button" type="submit">Login</button>
-            </div>
-        </form>
+        <div class="btn">
+          <button class="animated-button" type="submit">Login</button>
+        </div>
+      </form>
     </div>
-</body>
+
+    <!-- Exercise 14: Responsive Product Card -->
+     <div class="card">
+        <div class="card-img">
+            <img src="../img/product/mobile.jpg" alt="" srcset="">
+        </div>
+        <div class="card-content">
+            <P>Name : <span>Mobile</span></P>
+            <P>price : <span>20$</span></P>
+            
+        </div>
+        <div class="card-button">
+            <button>Buy</button>
+        </div>
+
+     </div>
+  </body>
 </html>
