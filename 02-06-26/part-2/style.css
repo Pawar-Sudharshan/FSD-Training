@@ -12,9 +12,25 @@
   cursor: pointer;
   transition: background-color 0.3s ease;
   transition: transform 0.3s ease;
+  transition : all 0.5s
 }
 
 .animated-button button:hover {
   background-color: #28a745;
     transform: scale(1.1);
+}
+/* Exercise 6: Expanding Card  */
+.card{
+    height: 200px;
+    width: 200px;
+    background-color: #007bff;
+    margin-top: 20px;
+    transition: width 0.5s ease, height 0.5s ease, background-color 0.5s ease;
+
+}
+
+.card:hover{
+    width: 250px;
+    height: 250px;
+    background-color: #28a745;
 }
