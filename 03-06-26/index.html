@@ -10,6 +10,39 @@
 
 <body>
 
+
+    <!-- Exercise 7.1: 
+Create a navbar using d-flex, flex-column, and flex-md-row for responsive behavior.  -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container-fluid">
+
+            <a class="navbar-brand" href="#">MySite</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav flex-column flex-md-row">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+    </nav>
     <!-- Create a container with three columns that stack vertically on mobile, two-per-row on tablets, 
 and three-per-row on desktops. -->
 
