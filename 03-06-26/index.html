@@ -1,199 +1,205 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bootstrap task</title>
-    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
-</head>
+    <link
+      rel="stylesheet"
+      href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    />
+  </head>
 
-<body>
-
-
+  <body>
     <!-- Exercise 7.1: 
 Create a navbar using d-flex, flex-column, and flex-md-row for responsive behavior.  -->
     <nav class="navbar navbar-expand-md navbar-light bg-light">
-        <div class="container-fluid">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">MySite</a>
 
-            <a class="navbar-brand" href="#">MySite</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav flex-column flex-md-row">
-
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-
-                </ul>
-            </div>
-
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav flex-column flex-md-row">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
     <!-- Create a container with three columns that stack vertically on mobile, two-per-row on tablets, 
 and three-per-row on desktops. -->
 
     <div class="container border border-primary mt-5 p-4">
-        <div class="row">
-
-            <div class="col-12 col-md-6 col-lg-4">
-                <h1>Column 1</h1>
-                <p>This is the first column.</p>
-            </div>
-
-            <div class="col-12 col-md-6 col-lg-4">
-                <h1>Column 2</h1>
-                <p>This is the second column.</p>
-            </div>
-
-            <div class="col-12 col-md-6 col-lg-4">
-                <h1>Column 3</h1>
-                <p>This is the third column.</p>
-            </div>
-
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-4">
+          <h1>Column 1</h1>
+          <p>This is the first column.</p>
         </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <h1>Column 2</h1>
+          <p>This is the second column.</p>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <h1>Column 3</h1>
+          <p>This is the third column.</p>
+        </div>
+      </div>
     </div>
 
-    <br><br><br><br>
+    <br /><br /><br /><br />
 
     <!-- Design a two-column layout with a sidebar (col-md-3) and content area (col-md-9).  -->
 
     <div class="container border border-secondary mt-5 p-4">
-        <div class="row">
-            <div class="col-md-3">
-                <h2>Sidebar</h2>
-                <p>This is the sidebar content.</p>
-            </div>
-            <div class="col-md-9">
-                <h2>Content Area</h2>
-                <p>This is the main content area.</p>
-            </div>
+      <div class="row">
+        <div class="col-md-3">
+          <h2>Sidebar</h2>
+          <p>This is the sidebar content.</p>
         </div>
+        <div class="col-md-9">
+          <h2>Content Area</h2>
+          <p>This is the main content area.</p>
+        </div>
+      </div>
     </div>
 
     <!-- Create a four-column layout (col-sm-3) with equal width.  -->
 
     <div class="container border border-success mt-5 p-4">
-        <div class="row">
-            <div class="col-sm-3">
-                <h2>Column 1</h2>
-                <p>This is the first column.</p>
-            </div>
-            <div class="col-sm-3">
-                <h2>Column 2</h2>
-                <p>This is the second column.</p>
-            </div>
-            <div class="col-sm-3">
-                <h2>Column 3</h2>
-                <p>This is the third column.</p>
-            </div>
-            <div class="col-sm-3">
-                <h2>Column 4</h2>
-                <p>This is the fourth column.</p>
-            </div>
+      <div class="row">
+        <div class="col-sm-3">
+          <h2>Column 1</h2>
+          <p>This is the first column.</p>
         </div>
+        <div class="col-sm-3">
+          <h2>Column 2</h2>
+          <p>This is the second column.</p>
+        </div>
+        <div class="col-sm-3">
+          <h2>Column 3</h2>
+          <p>This is the third column.</p>
+        </div>
+        <div class="col-sm-3">
+          <h2>Column 4</h2>
+          <p>This is the fourth column.</p>
+        </div>
+      </div>
     </div>
 
     <!-- Use justify-content-center and align-items-center correctly -->
     <!-- Reorder columns on different screen sizes using order-md-2, order-md-1 -->
-    <div class="container border border-danger mt-5 p-4 d-flex justify-content-center align-items-center"
-        style="height: 200px;">
-        <h1>HELLO WORLD</h1>
+    <div
+      class="container border border-danger mt-5 p-4 d-flex justify-content-center align-items-center"
+      style="height: 200px"
+    >
+      <h1>HELLO WORLD</h1>
     </div>
 
-
     <div class="container border border-info mt-5 p-4">
-        <p class="display-1">Lorem ipsum.</p>
-        <br>
-        <p>This is some <span class="lead">sample</span> text.</p>
-        <p class="text-muted"> <span class="text-decoration-underline"><span class="text-lowercase">Lorem ipsum dolor
-                </span>it amet consectetur adipisicing elit. In, incidunt?</span></p>
-        <p class="fw-bold">Lorem ipsum dolor sit, <span class="text-uppercase ">amet consectetur adipisicing
-                elit</span>. Quia iusto sit <span class="text-decoration-line-through text-capitalize">voluptatem
-                quisquam
-                perspiciatis veritatis!</span>
-        </p>
-
+      <p class="display-1">Lorem ipsum.</p>
+      <br />
+      <p>This is some <span class="lead">sample</span> text.</p>
+      <p class="text-muted">
+        <span class="text-decoration-underline"
+          ><span class="text-lowercase">Lorem ipsum dolor </span>it amet
+          consectetur adipisicing elit. In, incidunt?</span
+        >
+      </p>
+      <p class="fw-bold">
+        Lorem ipsum dolor sit,
+        <span class="text-uppercase">amet consectetur adipisicing elit</span>.
+        Quia iusto sit
+        <span class="text-decoration-line-through text-capitalize"
+          >voluptatem quisquam perspiciatis veritatis!</span
+        >
+      </p>
     </div>
 
     <!-- Create buttons using all contextual classes: btn-primary, btn-secondary, btn-outline-*, etc. -->
     <div class="container border border-warning mt-5 p-4">
-        <button class="btn btn-primary m-2 btn-outline">Click Me</button>
-        <button class="btn btn-secondary m-2 btn-outline">Secondary Button</button>
-        <button class="btn btn-success m-2 btn-outline">Success Button</button>
-        <button class="btn btn-danger m-2 btn-outline">Danger Button</button>
-        <button class="btn btn-warning m-2 btn-outline">Warning Button</button>
-        <button class="btn btn-info m-2 btn-outline">Info Button</button>
-        <button class="btn btn-light m-2 btn-outline">Light Button</button>
-        <button class="btn btn-dark m-2 btn-outline">Dark Button</button>
+      <button class="btn btn-primary m-2 btn-outline">Click Me</button>
+      <button class="btn btn-secondary m-2 btn-outline">
+        Secondary Button
+      </button>
+      <button class="btn btn-success m-2 btn-outline">Success Button</button>
+      <button class="btn btn-danger m-2 btn-outline">Danger Button</button>
+      <button class="btn btn-warning m-2 btn-outline">Warning Button</button>
+      <button class="btn btn-info m-2 btn-outline">Info Button</button>
+      <button class="btn btn-light m-2 btn-outline">Light Button</button>
+      <button class="btn btn-dark m-2 btn-outline">Dark Button</button>
 
-
-        <br><br><br><br>
-        <!-- Add button groups using btn-group, and create toggle buttons with checkboxes. -->
-        <div class="btn-group" role="group" aria-label="Basic example">
-            <button type="button" class="btn btn-primary">Left</button>
-            <button type="button" class="btn btn-secondary">Middle</button>
-            <button type="button" class="btn btn-danger">Right</button>
-        </div>
+      <br /><br /><br /><br />
+      <!-- Add button groups using btn-group, and create toggle buttons with checkboxes. -->
+      <div class="btn-group" role="group" aria-label="Basic example">
+        <button type="button" class="btn btn-primary">Left</button>
+        <button type="button" class="btn btn-secondary">Middle</button>
+        <button type="button" class="btn btn-danger">Right</button>
+      </div>
     </div>
 
-
-    <br><br><br><br>
+    <br /><br /><br /><br />
 
     <!-- Exercise 11.1:
     Create a profile card using card, card-body, card-title, and card-img-top.
     Exercise 11.2:
     Design a media object layout using media and align an image to the left of the content. -->
+
     <div class="container border border-dark mt-5 p-4">
-        <div class="card" style="width: 18rem;">
+      <div class="card" style="width: 18rem">
+        <img
+          src="./asserts/card-img.png"
+          class="card-img-top img-fluid object-fit-cover"
+          style="height: 150px"
+          alt="card image"
+        />
 
-            <img src="./asserts/card-img.png" class="card-img-top img-fluid object-fit-cover" style="height: 150px;"
-                alt="card image">
+        <div class="card-body">
+          <h5 class="card-title">Card Title</h5>
 
-            <div class="card-body">
-                <h5 class="card-title">Card Title</h5>
+          <p class="card-text">This is some text within a card body.</p>
 
-                <p class="card-text">
-                    This is some text within a card body.
-                </p>
-
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-
+          <a href="#" class="btn btn-primary">Go somewhere</a>
         </div>
+      </div>
     </div>
     <div class="container border border-dark mt-5 p-4">
+      <div class="card" style="width: 18rem">
+        <img
+          src="./asserts/card-img.png"
+          class="card-img-top"
+          style="height: 150px; object-fit: cover"
+          alt="card image"
+        />
 
-        <div class="card" style="width: 18rem;">
-            <img src="./asserts/card-img.png" class="card-img-top" style="height:150px; object-fit:cover;"
-                alt="card image">
+        <div class="card-body">
+          <h5 class="card-title">Profile Name</h5>
 
-            <div class="card-body">
-                <h5 class="card-title">Profile Name</h5>
+          <p class="card-text">This is some text within a card body.</p>
 
-                <p class="card-text">
-                    This is some text within a card body.
-                </p>
-
-                <a href="#" class="btn btn-primary">Follow</a>
-            </div>
+          <a href="#" class="btn btn-primary">Follow</a>
         </div>
-
+      </div>
     </div>
-
 
     <!-- 12. Spacing Utilities
     Exercise 12.1:
@@ -201,38 +207,37 @@ and three-per-row on desktops. -->
     Exercise 12.2:
     Build a pricing section where spacing improves the layout. -->
     <div class="container border border-dark mt-5 p-4">
-        <h1 class="mb-4">Pricing Plans</h1>
+      <h1 class="mb-4">Pricing Plans</h1>
 
-        <div class="row">
-
-            <div class="col-md-4 mb-3">
-                <div class="card h-100">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">Basic Plan</h5>
-                        <p class="card-text">This is the basic plan.</p>
-                        <a href="#" class="btn btn-primary mt-auto">Choose Plan</a>
-                    </div>
-                </div>
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <div class="card h-100">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Basic Plan</h5>
+              <p class="card-text">This is the basic plan.</p>
+              <a href="#" class="btn btn-primary mt-auto">Choose Plan</a>
             </div>
-            <div class="col-md-4 mb-3">
-                <div class="card h-100">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">Standard Plan</h5>
-                        <p class="card-text">This is the standard plan.</p>
-                        <a href="#" class="btn btn-primary mt-auto">Choose Plan</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 mb-3">
-                <div class="card h-100">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">Premium Plan</h5>
-                        <p class="card-text">This is the premium plan.</p>
-                        <a href="#" class="btn btn-primary mt-auto">Choose Plan</a>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+        <div class="col-md-4 mb-3">
+          <div class="card h-100">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Standard Plan</h5>
+              <p class="card-text">This is the standard plan.</p>
+              <a href="#" class="btn btn-primary mt-auto">Choose Plan</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card h-100">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Premium Plan</h5>
+              <p class="card-text">This is the premium plan.</p>
+              <a href="#" class="btn btn-primary mt-auto">Choose Plan</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- 13. Colors and Backgrounds
@@ -242,37 +247,34 @@ and three-per-row on desktops. -->
     Exercise 13.2:
     Use bg-gradient with bg-dark and white text. -->
     <div class="container border border-dark mt-5 p-4">
-        <div class="row">
-
-            <div class="col-md-4 mb-3">
-                <div class="card bg-primary text-white h-100">
-                    <div class="card-body">
-                        <h5 class="card-title">Primary Card</h5>
-                        <p class="card-text">This card has a primary background.</p>
-                    </div>
-                </div>
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <div class="card bg-primary text-white h-100">
+            <div class="card-body">
+              <h5 class="card-title">Primary Card</h5>
+              <p class="card-text">This card has a primary background.</p>
             </div>
-             <div class="col-md-4 mb-3">
-                <div class="card bg-dark text-white h-100">
-                    <div class="card-body">
-                        <h5 class="card-title">Dark Card</h5>
-                        <p class="card-text">This card has a dark background.</p>
-                    </div>
-                </div>
-            </div>
-             <div class="col-md-4 mb-3">
-                <div class="card bg-danger text-white h-100">
-                    <div class="card-body">
-                        <h5 class="card-title">Danger Card</h5>
-                        <p class="card-text">This card has a danger background.</p>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+        <div class="col-md-4 mb-3">
+          <div class="card bg-dark text-white h-100">
+            <div class="card-body">
+              <h5 class="card-title">Dark Card</h5>
+              <p class="card-text">This card has a dark background.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card bg-danger text-white h-100">
+            <div class="card-body">
+              <h5 class="card-title">Danger Card</h5>
+              <p class="card-text">This card has a danger background.</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-
+  </body>
 </html>
